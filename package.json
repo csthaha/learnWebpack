@@ -1,0 +1,38 @@
+{
+  "name": "buildweb",
+  "version": "1.0.0",
+  "description": "build webpack by myself",
+  "main": "./src/app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack --config build/webpack.config.prod.js",
+    "start": "webpack-dev-server --config build/webpack.config.dev.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.7.4",
+    "@babel/preset-env": "^7.7.4",
+    "@babel/preset-react": "^7.7.4",
+    "babel-loader": "^8.0.6",
+    "babel-plugin-import": "^1.13.0",
+    "clean-webpack-plugin": "^3.0.0",
+    "css-loader": "^3.2.0",
+    "file-loader": "^5.0.2",
+    "html-webpack-plugin": "^3.2.0",
+    "less": "^3.10.3",
+    "less-loader": "^5.0.0",
+    "style-loader": "^1.0.0",
+    "url-loader": "^2.3.0",
+    "webpack": "^4.41.2",
+    "webpack-cli": "^3.3.10",
+    "webpack-dev-server": "^3.9.0",
+    "webpack-merge": "^4.2.2"
+  },
+  "dependencies": {
+    "antd": "^3.25.3",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0"
+  }
+}
